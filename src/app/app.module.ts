@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { UpperMenuComponent } from './price-tracker-site/upper-menu/upper-menu.component';
 import { BaseComponent } from './price-tracker-site/base/base.component';
+import {MatGridListModule} from "@angular/material/grid-list";
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BaseComponent } from './price-tracker-site/base/base.component';
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
